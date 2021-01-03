@@ -14,10 +14,18 @@
 
 <body>
     <header>
-        <h1>Survey Form!</h1>
+        <h1 id="title">Survey Form!</h1>
     </header>
     <main>
-        <p>Hello World</p>
+        <p id="description">Hello! This is a survey form to practice taking user input!</p>
+        <form id="survey-form">
+            <label id="name-label">Name
+                <input type="text" id="name" placeholder="Alan Turing" required></label>
+            <label id="email-label">Email
+                <input type="email" id="email" placeholder="test@test.com" required></label>
+            <label id="number-label">Rating
+                <input type="number" id="number" min="1" max="10" placeholder="5"required></label>
+        </form>
     </main>
     <footer>
 
