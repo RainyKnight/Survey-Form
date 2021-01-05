@@ -1,4 +1,6 @@
-:root {}
+:root {
+    text-align: center;
+}
 
 body {
     background: linen;
@@ -6,9 +8,9 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-area: "header header header" "ad1 main ad2" "footer footer footer";
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-areas: "header header header" ". main ." "footer footer footer";
 }
 
 header {
@@ -16,22 +18,16 @@ header {
     background-color: magenta;
 }
 
-.ad-1 {
-    grid-area: ad1;
-    background-color: yellow;
-}
-
-.ad-2 {
-    grid-area: ad2;
-    background-color: orange;
-}
-
 main {
     grid-area: main;
+    padding: 1rem;
     background-color: green;
 }
 
 footer {
     grid-area: footer;
+    position: relative;
     background-color: red;
+    left: 0px;
+    bottom: 0px;
 }
