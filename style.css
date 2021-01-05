@@ -27,7 +27,7 @@ body {
 
 header {
     grid-area: header;
-    background-color: magenta;
+    background-color: red;
 }
 
 main {
