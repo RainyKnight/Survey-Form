@@ -1,7 +1,37 @@
-:root {
-
-}
+:root {}
 
 body {
     background: linen;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-area: "header header header" "ad1 main ad2" "footer footer footer";
+}
+
+header {
+    grid-area: header;
+    background-color: magenta;
+}
+
+.ad-1 {
+    grid-area: ad1;
+    background-color: yellow;
+}
+
+.ad-2 {
+    grid-area: ad2;
+    background-color: orange;
+}
+
+main {
+    grid-area: main;
+    background-color: green;
+}
+
+footer {
+    grid-area: footer;
+    background-color: red;
 }
