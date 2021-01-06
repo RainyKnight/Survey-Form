@@ -40,7 +40,7 @@ main {
     padding: 2rem;
     background-color: white;
     text-align: left;
-    /* border-style: solid; */
+    border-style: solid;
 }
 
 footer {
