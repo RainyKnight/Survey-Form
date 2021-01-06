@@ -20,8 +20,8 @@ body {
     .container {
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 1fr auto auto auto auto;
-        grid-template-areas: "header" "." "main" "," "footer";
+        grid-template-rows: 1fr auto auto;
+        grid-template-areas: "header" "main" "footer";
     }
 
 }
