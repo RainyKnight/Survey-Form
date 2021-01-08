@@ -56,6 +56,10 @@ main {
     border-style: solid;
 }
 
+input {
+    margin-top: 0.4rem;
+}
+
 footer {
     grid-area: footer;
     position: relative;
