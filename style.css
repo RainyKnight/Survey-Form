@@ -73,6 +73,21 @@ input {
     height: 1.5rem;
 }
 
+#submit {
+    background-color: gray;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-style: solid;
+    border-color: black;
+}
+
+#submit:hover {
+    background-color: greenyellow;
+}
+
 footer {
     grid-area: footer;
     position: relative;
