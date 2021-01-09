@@ -38,7 +38,7 @@ body {
     }
 }
 /* wide resizing */
-@media (min-width: 1000px) {
+@media (min-width:1050px) {
     .container {
         display: grid;
         grid-template-columns: 1fr 40rem 1fr;
