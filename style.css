@@ -56,8 +56,16 @@ main {
     border-style: solid;
 }
 
+label {
+font-style: it;
+}
+
 input {
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
     margin-top: 0.4rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    height: 1.5rem;
 }
 
 footer {
