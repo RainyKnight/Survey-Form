@@ -65,19 +65,30 @@ main {
 
 .form-group {
     margin: 0.5rem 0 0.5rem 0;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+}
+
+label {
+    font-weight: bold;
 }
 
 input {
-    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
     border-radius: 5px;
     height: 1.5rem;
+    width: 100%;
 }
 
 select {
     cursor: pointer;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    width: 100%;
 }
 
 #submit {
+    
     background-color: gray;
     border-radius: 5px;
     text-align: center;
