@@ -21,12 +21,25 @@
             <main>
                 <p id="description">Hello! This is a survey form to practice taking user input!</p>
                 <form id="survey-form" action="submit.html" target="_blank" class="form-flex">
-                    <label id="name-label">Name</label>
+                    <div class="form-group">
+                        <label id="name-label">Name</label>
                         <input type="text" id="name" placeholder="Alan Turing" required>
-                    <label id="email-label">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <label id="email-label">Email</label>
                         <input type="email" id="email" placeholder="test@test.com" required>
-                    <label id="number-label">Rating</label>
-                        <input type="number" id="number" min="1" max="10" placeholder="5" required><br>
+                    </div>
+                    <select id="dropdown" name="occupation" class="form-group" required>
+                        <option disabled selected>Select occupation</option>
+                        <option value="student">Student</option>
+                        <option value="part-time">Part-time</option>
+                        <option value="full-time">Full-time</option>
+
+                    </select>
+                    <div class="form-group">
+                        <label id="number-label">Rating</label>
+                        <input type="number" id="number" min="1" max="10" placeholder="5" required>
+                    </div>
                     <input type="submit" id="submit" name="submit">
                 </form>
             </main>
