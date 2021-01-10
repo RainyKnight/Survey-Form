@@ -18,8 +18,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: auto;
-    /* Adding red for debug purposes */
-    background-color: red;
+    /* Adding red for debug purposes
+    background-color: red; */
 }
 
 .container {
@@ -76,12 +76,15 @@ main {
 input, select, button {
     all: unset;
     padding: 10px;
-    width: 90%;
+    width: 100%;
     height: 25px;
     border-style: dashed;
     border-style: solid;
     border-radius: 5px;
     border-width: 2px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
 }
 
 label {
