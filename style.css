@@ -1,6 +1,6 @@
 :root {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
 body {
@@ -37,12 +37,14 @@ body {
         grid-template-areas: "header" "main" "footer";
     }
 }
+
 /* wide resizing */
+
 @media (min-width:1050px) {
     .container {
         display: grid;
         grid-template-columns: 1fr 40rem 1fr;
-        }
+    }
 }
 
 header {
@@ -65,35 +67,34 @@ main {
 
 .form-group {
     margin: 0.5rem 0 0.5rem 0;
+}
+
+/* Stylize the elements the same */
+
+input, select, button {
+    all: unset;
     padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    width: 100% !important;
+    height: 30px;
+    border-style: dashed;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
 }
 
 label {
     font-weight: bold;
 }
 
-input {
-    border-radius: 5px;
-    height: 1.5rem;
-    width: 100%;
-}
-
 select {
     cursor: pointer;
-    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 2px;
-    width: 100%;
 }
 
 #submit {
-    
     background-color: gray;
     border-radius: 5px;
     text-align: center;
     width: 100%;
-    padding: 0.5rem;
     margin-top: 1rem;
     border-style: solid;
     border-color: black;
@@ -108,7 +109,6 @@ select {
 footer {
     grid-area: footer;
     position: relative;
-    background-color: red;
     left: 0px;
     bottom: 0px;
 }
