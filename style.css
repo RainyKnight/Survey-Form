@@ -94,6 +94,13 @@ input[type="text"], input[type="email"], input[type="number"], select, button[ty
     align-items: center;
 }
 
+textarea {
+    width: 100%;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
 button[type="radio"] {
     padding: 5px;
 }
