@@ -73,16 +73,19 @@ main {
 
 /* Stylize the elements the same */
 
-input, select, button {
+input[type="text"], input[type="email"], input[type="number"], select, button[type="submit"] {
     all: unset;
     padding: 10px;
     width: 93%;
     height: 1rem;
-    border-style: dashed;
     border-style: solid;
     border-radius: 5px;
     border-width: 2px;
     align-items: center;
+}
+
+button[type="radio"] {
+    padding: 5px;
 }
 
 label {
