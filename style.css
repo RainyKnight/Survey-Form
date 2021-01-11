@@ -38,6 +38,9 @@ body {
         grid-template-rows: 1fr minmax(10px, 100vh) auto;
         grid-template-areas: "header" "main" "footer";
     }
+    main {
+        border-radius: 0px !important;
+    }
 }
 
 /* wide resizing */
@@ -54,8 +57,8 @@ header {
 }
 
 header, footer {
-    background-color: teal;
-    border-style: solid;
+    /* background-color: teal;
+    border-style: solid; */
 }
 
 main {
@@ -65,6 +68,7 @@ main {
     background-color: white;
     text-align: left;
     border-style: solid;
+    border-radius: 20px;
 }
 
 .form-group {
