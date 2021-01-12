@@ -23,17 +23,17 @@
                 <form id="survey-form" action="submit.html" target="_blank" class="form-flex">
                     <div class="form-group">
                         <label id="name-label">Name</label>
-                        <input type="text" id="name" placeholder="Alan Turing" required>
+                        <input type="text" id="name" placeholder="Enter your name" required>
                     </div>
                     <div class="form-group">
                         <label id="email-label">Email</label>
-                        <input type="email" id="email" placeholder="test@test.com" required>
+                        <input type="email" id="email" placeholder="Enter your email" required>
                     </div>
 
                     <div class="form-group">
-                        <p>Which option best describes your current role?</p>
+                        <label>Which option best describes your current role?</label>
                         <select id="dropdown" name="role" class="form-group" required>
-                            <option disabled selected>Select role</option>
+                            <option disabled selected>Select a role</option>
                             <option value="none">None</option>
                             <option value="student">Student</option>
                             <option value="part-time">Part-time</option>
@@ -43,9 +43,8 @@
                     </div>
 
                     <div class="form-group">
-                        <p>How would you rate this survey?</p>
-                        <label id="number-label">Rating</label>
-                        <input type="number" id="number" min="1" max="10" placeholder="5" required>
+                        <label id="number-label">Age (optional)</label>
+                        <input type="number" id="age" name="age" min="1" max="200" placeholder="Enter your age">
                     </div>
 
                     <div class="form-group" name="recommend">
