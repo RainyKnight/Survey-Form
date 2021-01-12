@@ -91,6 +91,11 @@ main {
     margin: 0.5rem 0 0.5rem 0;
 }
 
+.form-radio {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Stylize the elements the same */
 
 input[type="text"], input[type="email"], input[type="number"], button[type="submit"] {
@@ -117,10 +122,6 @@ textarea {
     border-style: solid;
     border-radius: 5px;
     border-width: 2px;
-}
-
-button[type="radio"] {
-    padding: 5px;
 }
 
 label {
