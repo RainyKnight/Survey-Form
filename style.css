@@ -96,6 +96,15 @@ main {
     flex-direction: column;
 }
 
+.form-radio>label {
+    font-weight: initial;
+}
+
+input[type="radio"] {
+    height: 1rem;
+    width: 1rem;
+}
+
 /* Stylize the elements the same */
 
 input[type="text"], input[type="email"], input[type="number"], button[type="submit"] {

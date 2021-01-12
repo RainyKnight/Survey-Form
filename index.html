@@ -47,14 +47,16 @@
                         <input type="number" id="number" name="age" min="1" max="200" placeholder="Enter your age">
                     </div>
 
-                    <div class="form-group form-radio" name="recommend">
+                    <div class="form-group" name="recommend">
                         <p>Would you recommend this survey to others?</p>
-                        <label>
-                            <input name="user-recommend" value="yes" type="radio">Yes</label>
-                        <label>
-                            <input name="user-recommend" value="maybe" type="radio">Maybe</label>
-                        <label>
-                            <input name="user-recommend" value="no" type="radio">No</label>
+                        <div class="form-radio">
+                            <label>
+                                <input name="user-recommend" value="no" type="radio"> No</label>
+                            <label>
+                                <input name="user-recommend" value="maybe" type="radio"> Maybe</label>
+                            <label>
+                                <input name="user-recommend" value="Yes" type="radio"> Yes</label>
+                        </div>
                     </div>
 
                     <div class="form-group">
@@ -83,7 +85,7 @@
 
 User Story #14
 
-Fix radio buttons alignment
+Fix radio buttons alignment with labels
 
 Color Palette
 
