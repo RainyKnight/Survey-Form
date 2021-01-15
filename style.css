@@ -113,7 +113,7 @@ input[type="checkbox"] {
 
 /* Stylize the elements the same */
 
-input[type="text"], input[type="email"], select ,input[type="number"], button[type="submit"], textarea {
+input[type="text"], input[type="email"], select, input[type="number"], button[type="submit"], textarea {
     height: 2.5rem;
     width: 100%;
     align-items: center;
@@ -127,6 +127,7 @@ input[type="text"], input[type="email"], select ,input[type="number"], button[ty
 
 textarea {
     box-sizing: inherit;
+    height: unset;
 }
 
 label {
@@ -136,7 +137,6 @@ label {
 select {
     cursor: pointer;
     padding-left: 0rem !important;
-
 }
 
 #submit {
