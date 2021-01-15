@@ -20,9 +20,8 @@
             </header>
             <main>
                 <p id="description">Hello! This is a survey form to practice taking user input!</p>
-                <form id="survey-form" action="submit.html" target="_blank" class="form-flex"
-                    style="background-color: red;">
-                    <div class="form-group" style="background-color: blue;">
+                <form id="survey-form" action="submit.html" target="_blank" class="form-flex">
+                    <div class="form-group">
                         <label id="name-label">Name</label>
                         <input type="text" id="name" placeholder="Enter your name" required>
                     </div>
@@ -33,7 +32,7 @@
 
                     <div class="form-group">
                         <label>Which option best describes your current role?</label>
-                        <select id="dropdown" name="role" class="form-group" required>
+                        <select id="dropdown" name="role" required>
                             <option disabled selected>Select a role</option>
                             <option value="none">None</option>
                             <option value="student">Student</option>
@@ -74,7 +73,7 @@
 
                     <div class="form-group">
                         <p>Any additional comments?</p>
-                        <textarea rows="5">
+                        <textarea rows="1">
                         </textarea>
                     </div>
 

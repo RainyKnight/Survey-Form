@@ -113,32 +113,18 @@ input[type="checkbox"] {
 
 /* Stylize the elements the same */
 
-input[type="text"], input[type="email"], input[type="number"], button[type="submit"] {
-    all: unset;
-    padding-top: 10px;
-    padding-bottom: 10px;
+input[type="text"], input[type="email"], select ,input[type="number"], button[type="submit"], textarea {
+    height: 2.5rem;
     width: 100%;
-    height: 1rem;
+    align-items: center;
+    padding-left: 0.5rem !important;
     border-style: solid;
     border-radius: 5px;
     border-width: 2px;
-    align-items: center;
     box-sizing: inherit;
 }
 
-select {
-    padding: 5px;
-    width: 100%;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 2px;
-}
-
 textarea {
-    width: 100%;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 2px;
     box-sizing: inherit;
 }
 
@@ -154,7 +140,7 @@ select {
     background-color: gray;
     border-radius: 5px;
     text-align: center;
-    margin-top: 1rem;
+    padding-left: 0px !important;
     border-style: solid;
     border-color: black;
 }
