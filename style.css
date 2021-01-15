@@ -128,6 +128,7 @@ input[type="text"], input[type="email"], select, input[type="number"], button[ty
 textarea {
     box-sizing: inherit;
     height: unset;
+    padding: 0.3rem;
 }
 
 label {
