@@ -118,6 +118,7 @@ input[type="text"], input[type="email"], select ,input[type="number"], button[ty
     width: 100%;
     align-items: center;
     padding-left: 0.3rem !important;
+    margin-top: 0.2rem;
     border-style: solid;
     border-radius: 5px;
     border-width: 2px;
