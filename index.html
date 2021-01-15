@@ -33,7 +33,7 @@
                     <div class="form-group">
                         <label>Which option best describes your current role?</label>
                         <select id="dropdown" name="role" required>
-                            <option disabled selected>Select a role</option>
+                            <option value="" disabled selected>Select a role</option>
                             <option value="none">None</option>
                             <option value="student">Student</option>
                             <option value="part-time">Part-time</option>
@@ -63,7 +63,7 @@
                         <label>Would you recommend this survey to others?</label>
                         <div class="flex-column">
                             <label>
-                                <input name="user-recommend" value="no" type="radio">No</label>
+                                <input name="user-recommend" value="no" type="radio" required>No</label>
                             <label>
                                 <input name="user-recommend" value="maybe" type="radio">Maybe</label>
                             <label>
@@ -96,7 +96,7 @@
 
 <!-- TODO List
 
-Color Palette
+Require select
 
 Link to my Github
 
