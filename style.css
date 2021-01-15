@@ -117,7 +117,7 @@ input[type="text"], input[type="email"], select ,input[type="number"], button[ty
     height: 2.5rem;
     width: 100%;
     align-items: center;
-    padding-left: 0.5rem !important;
+    padding-left: 0.3rem !important;
     border-style: solid;
     border-radius: 5px;
     border-width: 2px;
@@ -134,6 +134,8 @@ label {
 
 select {
     cursor: pointer;
+    padding-left: 0rem !important;
+
 }
 
 #submit {
